@@ -1,7 +1,8 @@
 import React, { FC, useState } from 'react';
 import { Collapse, Container, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import './NavMenu.css';
+
+import './NavMenu.scss';
 
 export const NavMenu: FC = () => {
   const [collapsed, setCollapsed] = useState(true);
